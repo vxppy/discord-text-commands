@@ -75,7 +75,7 @@ class VxppyCommandCore {
             option = transform(option);
         }
         // @ts-ignore
-        this._children.push(option.data);
+        this._children.push(option.Data);
         return this;
     }
     subCommand(name, transform) {

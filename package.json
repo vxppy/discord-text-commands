@@ -5,6 +5,10 @@
     "license": "MIT",
     "author": "vxppy",
     "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vxppy/discord-text-commands"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
