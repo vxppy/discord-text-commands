@@ -173,11 +173,11 @@ abstract class VxppyCommandCore {
 
         let option = new VxppyOption(name);
         if (transform) {
-            option = transform(option) as VxppyOption;
+            option = transform(option);
         }
 
         // @ts-ignore
-        this._children.push(option.data);
+        this._children.push(option.Data);
 
         return this;
     }
@@ -195,7 +195,7 @@ abstract class VxppyCommandCore {
 
         let option = new VxppyTextSubCommand(name);
         if (transform) {
-            option = transform(option) as VxppyTextSubCommand;
+            option = transform(option);
         }
 
         // @ts-ignore
