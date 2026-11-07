@@ -1,0 +1,29 @@
+{
+    "name": "@vxppy/discord-text-commands",
+    "version": "1.0.0",
+    "description": "A simple text command builder lib for easier discord bots",
+    "license": "MIT",
+    "author": "vxppy",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "exports": {
+        ".": {
+            "import": "./build/index.js",
+            "types": "./build/index.d.ts"
+        }
+    },
+    "files": [
+        "build",
+        "README.md",
+        "LICENSE"
+    ],
+    "peerDependencies": {
+        "discord.js": "^14.27.0"
+    },
+    "devDependencies": {
+        "discord.js": "^14.27.0"
+    },
+    "type": "module"
+}
