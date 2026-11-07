@@ -1,6 +1,6 @@
 {
     "name": "@vxppy/discord-text-commands",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A simple text command builder lib for easier discord bots",
     "license": "MIT",
     "author": "vxppy",
